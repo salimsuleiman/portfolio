@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;900&family=Encode+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    color: #40514e;
+}
+
+.contact {
+    padding: 80px;
+    background-color: #0A1931;
+    color: #F9F9F9;
+}
+.contact .fab{
+    padding-right: 20px;
+    padding-top: 20px;
+    color: #3C8DAD;
+}
+
+.contact .fas, .far{
+    color: #1768AC;
+}
+
+.contact span {
+    margin-top: 1000px;
+}
+
+.profile {
+    background-color: #4A47A3;
+    border: none;
+    padding: 100px;
+}
+.profile p{
+    color: #FFF1F1;
+    width: 50%;
+    margin:auto;
+    font-family: 'Encode Sans', sans-serif;;
+}
+
+.mypicture{
+    border: 2.3px solid #ffff00;
+}
+.portfolio {
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    overflow: hidden;
+}
+
+
+.h1-name, .style-title {
+    font-family:'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #00ADB5;
+}
+
+.h1-name {
+    color:#A2DBFA;
+}
+.h3-name {
+    color: #0A1931;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bolder;
+}
+
+.portfolio-section {
+    background-color: #D8E3E7;
+    overflow: hidden;
+}
+
+.ports {
+    margin-left: 76px;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    .profile p{
+        width: 80%;
+    }
+    
+    .ports {
+        margin-left: 47px
+    }
+    
+    
+}
